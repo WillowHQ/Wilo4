@@ -2,6 +2,9 @@
   "expo": {
     "name": "Wilo2",
     "slug": "Wilo2",
+    "plugins": [
+      "@react-native-voice/voice"
+    ],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -12,16 +15,26 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.thomcodebusters.Wilo2"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.thomcodebusters.Wilo2"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8151edf0-3978-4133-8ba5-ba3dc6886902"
+      }
     }
   }
 }
