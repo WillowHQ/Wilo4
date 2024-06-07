@@ -142,6 +142,9 @@ function VoiceTest() {
           </Text>
         );
       })}
+      //first lets figure out how to make a voice menu
+      //we need to use an ai to figure out how to decide what to do ? 
+      
       <Text style={styles.stat}>{`End: ${end}`}</Text>
       <TouchableHighlight onPress={_startRecognizing}>
         <Image style={styles.button} source={require('./button.png')} />
