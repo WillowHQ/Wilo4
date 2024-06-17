@@ -1,0 +1,35 @@
+{
+    "workout": {
+        "name": "Leg Workout",
+        "notes": "My leg workout from Sunday",
+        "exercises": [
+            {
+                "name": "Bulgarian Split Squats",
+                "sets": 3,
+                "reps": 10,
+                "load": "BW"
+            },
+            {
+                "name": "Squats",
+                "sets": 3,
+                "reps": 12,
+                "load": "135"
+            },
+            {
+                "name": "Lunges",
+                "sets": 3,
+                "reps": 10
+            },
+            {
+                "name": "Bench Press",
+                "sets": 3,
+                "reps": 8
+            },
+            {
+                "name": "Deadlifts",
+                "sets": 3,
+                "reps": 6
+            }
+        ]
+    }
+}
